@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "holis"
+  },
+  {
+    "role": "assistant",
+    "content": "¡Hola! ¿Cómo puedo ayudarte hoy?"
+  },
+  {
+    "role": "user",
+    "content": "me llamo Juana, como estas?"
+  },
+  {
+    "role": "assistant",
+    "content": "Hola Juana, ¡encantado de conocerte! Estoy bien, gracias. ¿En qué puedo ayudarte hoy?"
+  },
+  {
+    "role": "user",
+    "content": "como te dije que me llamaba?"
+  },
+  {
+    "role": "assistant",
+    "content": "Me dijiste que te llamabas Juana. ¿Qué más te gustaría compartir o preguntar?"
+  }
+]
