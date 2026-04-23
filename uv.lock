@@ -278,6 +278,12 @@ wheels = [
 ]
 
 [[package]]
+name = "pydf"
+version = "12"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c7/27/8174d7338be329ea3aabb185a3a19860ea97b8e223b78b21511df529e0fe/pydf-12.tar.gz", hash = "sha256:7f47a7c3abfceb1ac04fc009ded538df1ae449c31203962a1471a4eb3bf21439", size = 13537, upload-time = "2015-04-03T15:30:30.914Z" }
+
+[[package]]
 name = "python-dotenv"
 version = "1.2.2"
 source = { registry = "https://pypi.org/simple" }
@@ -335,6 +341,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "fastapi" },
     { name = "openai" },
+    { name = "pydf" },
     { name = "python-dotenv" },
     { name = "python-multipart" },
     { name = "uvicorn" },
@@ -344,6 +351,7 @@ dependencies = [
 requires-dist = [
     { name = "fastapi", specifier = ">=0.136.0" },
     { name = "openai", specifier = ">=2.32.0" },
+    { name = "pydf", specifier = ">=12" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "python-multipart", specifier = ">=0.0.26" },
     { name = "uvicorn", specifier = ">=0.45.0" },

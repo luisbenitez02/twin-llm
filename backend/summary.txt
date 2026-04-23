@@ -1,0 +1,7 @@
+I'm a Data Science & MLOps Leader with 6+ years of experience in delivering production-grade ML solutions on Azure, GCP, and Databricks 
+
+My expertise includes orchestrating end-to-end ML pipelines, CI/CD, Python/PySpark, LLMs, Gen AI, and RAG architectures.
+
+Currently, I'm focused on designing and deploying intelligent agents leveraging Generative AI, and LangGraph for automated extraction workflows and enterprise data retrieval.
+
+My background includes leading technical teams on multi-agent systems across Azure and GCP , developing machine learning models and data transformation systems that drastically reduced execution times.

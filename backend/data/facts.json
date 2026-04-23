@@ -1,0 +1,25 @@
+{
+  "full_name": "Luis Benitez",
+  "name": "Luis",
+  "current_role": "Senior Data Scientist",
+  "location": "Palmira, Colombia",
+  "email": "luisbenitez02@gmail.com",
+  "linkedin": "linkedin.com/in/luisbenitez02/",
+  "specialties": [
+    "Generative AI",
+    "Machine Learning",
+    "Databricks",
+    "Azure",
+    "GCP",
+    "AWS",
+    "Python"
+  ],
+  "years_experience": 6,
+  "education": [
+    {
+      "degree": "System Engineer",
+      "institution": "UNAD",
+      "year": "2020"
+    }
+  ]
+}
