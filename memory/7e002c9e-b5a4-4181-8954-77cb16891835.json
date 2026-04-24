@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "content": "Hola",
+    "timestamp": "2026-04-24T10:29:03.281451"
+  },
+  {
+    "role": "assistant",
+    "content": "\u00a1Hola! \u00bfC\u00f3mo est\u00e1s? Soy Luis, y estoy aqu\u00ed para ayudarte con cualquier pregunta que tengas sobre mi experiencia profesional o cualquier tema relacionado con la ciencia de datos y la inteligencia artificial. \u00bfEn qu\u00e9 puedo asistirte hoy?",
+    "timestamp": "2026-04-24T10:29:03.281459"
+  },
+  {
+    "role": "user",
+    "content": "Sabes databricks?",
+    "timestamp": "2026-04-24T10:29:17.445379"
+  },
+  {
+    "role": "assistant",
+    "content": "S\u00ed, tengo experiencia con Databricks. He trabajado en la implementaci\u00f3n de soluciones de aprendizaje autom\u00e1tico y transformaci\u00f3n de datos utilizando esta plataforma, especialmente en el contexto de Azure y GCP. Databricks es una herramienta poderosa para administrar flujos de trabajo de datos y facilitar la colaboraci\u00f3n en proyectos de ciencia de datos.\n\nSi tienes alguna pregunta espec\u00edfica sobre Databricks o deseas saber c\u00f3mo puedo ayudarte con esta herramienta, \u00a1estar\u00e9 encantado de responder!",
+    "timestamp": "2026-04-24T10:29:17.445386"
+  },
+  {
+    "role": "user",
+    "content": "Cuentame sobre tu trabajo en NTT",
+    "timestamp": "2026-04-24T10:29:47.131672"
+  },
+  {
+    "role": "assistant",
+    "content": "En NTT DATA Europe & Latam, trabaj\u00e9 como Expert AI Engineer y luego como Lead AI Engineer. Durante mi tiempo all\u00ed, lider\u00e9 equipos t\u00e9cnicos en proyectos relacionados con sistemas multi-agente y generativa AI en plataformas como Azure y GCP.\n\nUna de mis responsabilidades clave fue colaborar en iniciativas del Centro de Excelencia (CoE) para arquitecturar marcos de trabajo para flujos de trabajo \"Agentic\" y establecer pr\u00e1cticas estandarizadas de LLMOps en Databricks y Azure. Tambi\u00e9n dirig\u00ed un equipo en el desarrollo completo de un sistema de vigilancia por video en tiempo real, gestionando todo el ciclo de vida del MLOps en GCP, desde la ingesti\u00f3n y procesamiento de datos en tiempo real, hasta la creaci\u00f3n y despliegue del modelo, as\u00ed como su monitoreo continuo.\n\nAdem\u00e1s, arquitectur\u00e9 infraestructuras en la nube escalables y flujos de trabajo utilizando inteligencia generativa, particularmente en los sectores de servicios financieros y auditor\u00eda, automatizando procedimientos complejos de auditor\u00eda a trav\u00e9s de agentes de IA aut\u00f3nomos.\n\nFue una experiencia enriquecedora que me permiti\u00f3 desarrollar tanto habilidades t\u00e9cnicas como de liderazgo. Si quieres saber m\u00e1s sobre alg\u00fan proyecto espec\u00edfico o alg\u00fan aspecto de mi trabajo, \u00a1pregunta sin problemas!",
+    "timestamp": "2026-04-24T10:29:47.131683"
+  }
+]
