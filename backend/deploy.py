@@ -35,8 +35,8 @@ def main():
             "public.ecr.aws/lambda/python:3.13",
             "/bin/sh",
             "-c",
-            "pip install --target /var/task/lambda-package -r /var/task/requirements.txt --platform manylinux2014_x86_64 --only-binary=:all: --upgrade",
-        ],
+            "pip install --target /var/task/lambda-package -r /var/task/requirements.txt --upgrade",
+        ],#--platform manylinux2014_x86_64 --only-binary=:all:  Remove for incompatible pypdf package
         check=True,
     )
 
