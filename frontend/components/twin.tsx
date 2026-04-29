@@ -40,7 +40,7 @@ export default function Twin() {
         setIsLoading(true);
 
         try {
-            const response = await fetch('http://localhost:8000/chat', { //!important: get the port from backend
+            const response = await fetch('https://3w8wt3y6gl.execute-api.us-east-1.amazonaws.com/chat', { //!important: get the port from backend
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
