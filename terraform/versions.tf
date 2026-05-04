@@ -9,10 +9,10 @@ terraform {
   }
 }
 
-# main provider
+# Main provider 
 provider "aws" {
-  # Uses AWS CLI configuration (aws configure)
-  
+  region = "us-east-1" 
+
   default_tags {
     tags = {
       Project     = var.project_name
@@ -22,7 +22,7 @@ provider "aws" {
   }
 }
 
-# Specific provider (us-east-1) with the same default tags
+# Specific provider (us-east-1)
 provider "aws" {
   alias  = "us_east_1"
   region = "us-east-1"

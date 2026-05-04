@@ -22,7 +22,8 @@ terraform init -input=false `
   -backend-config="bucket=twin-terraform-state-$awsAccountId" `
   -backend-config="key=$Environment/terraform.tfstate" `
   -backend-config="region=$awsRegion" `
-  -backend-config="dynamodb_table=twin-terraform-locks" `
+  -backend-config="use_lockfile=true" \
+  #-backend-config="dynamodb_table=twin-terraform-locks" \ DEPRECATED
   -backend-config="encrypt=true"
 
 if (-not (terraform workspace list | Select-String $Environment)) {
