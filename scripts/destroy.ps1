@@ -72,11 +72,13 @@ if ($Environment -eq "prod" -and (Test-Path "prod.tfvars")) {
     terraform destroy -var-file=prod.tfvars `
                      -var="project_name=$ProjectName" `
                      -var="environment=$Environment" `
-                     -parallelism=5 -auto-approve
+                    -parallelism=5 
+                     -auto-approve
 } else {
     terraform destroy -var="project_name=$ProjectName" `
                      -var="environment=$Environment" `
-                     -parallelism=5 -auto-approve
+                     -parallelism=5 
+                     -auto-approve
 }
 
 Write-Host "Infrastructure for $Environment has been destroyed!" -ForegroundColor Green
