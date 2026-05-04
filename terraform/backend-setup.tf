@@ -38,22 +38,23 @@ resource "aws_s3_bucket_public_access_block" "terraform_state" {
   restrict_public_buckets = true
 }
 
-resource "aws_dynamodb_table" "terraform_locks" {
-  name         = "twin-terraform-locks"
-  billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "LockID"
+#DYNAMO TABLE DEPRECATED IN FAVOR OF S3 OBJECT LOCKING
+# resource "aws_dynamodb_table" "terraform_locks" {
+#   name         = "twin-terraform-locks"
+#   billing_mode = "PAY_PER_REQUEST"
+#   hash_key     = "LockID"
 
-  attribute {
-    name = "LockID"
-    type = "S"
-  }
+#   attribute {
+#     name = "LockID"
+#     type = "S"
+#   }
 
-  tags = {
-    Name        = "Terraform State Locks"
-    Environment = "global"
-    ManagedBy   = "terraform"
-  }
-}
+#   tags = {
+#     Name        = "Terraform State Locks"
+#     Environment = "global"
+#     ManagedBy   = "terraform"
+#   }
+# }
 
 # Note: aws_caller_identity.current is already defined in main.tf
 
@@ -61,6 +62,6 @@ output "state_bucket_name" {
   value = aws_s3_bucket.terraform_state.id
 }
 
-output "dynamodb_table_name" {
-  value = aws_dynamodb_table.terraform_locks.name
-}
+# output "dynamodb_table_name" {
+#   value = aws_dynamodb_table.terraform_locks.name
+# }
