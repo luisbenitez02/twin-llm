@@ -21,8 +21,8 @@ terraform init -input=false \
   -backend-config="key=${ENVIRONMENT}/terraform.tfstate" \
   -backend-config="region=${AWS_REGION}" \
   -backend-config="use_lockfile=true" \
-  #-backend-config="dynamodb_table=twin-terraform-locks" \ DEPRECATED
   -backend-config="encrypt=true"
+  #-backend-config="dynamodb_table=twin-terraform-locks" \ DEPRECATED
 
 if ! terraform workspace list | grep -q "$ENVIRONMENT"; then
   terraform workspace new "$ENVIRONMENT"
